@@ -51,7 +51,7 @@ In order to use this bot, you'll have to obtain an API key from [Coinmarketcap](
 4. Run alerts.py script to launch the application & set your desired price targets/stop losses.
 5. The application will have everything turned on by default, you can adjust it according to your needs.
 
-# Functions Explained
+# A Few Functions Explained
 
 - fetch_current_prices: This function sends a request to the CoinMarketCap API to retrieve the latest prices of cryptocurrencies (BTC, ETH, SOL). It then parses the API response to extract the relevant information (current prices) and formats it as a string.
 
