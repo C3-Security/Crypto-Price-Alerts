@@ -47,7 +47,7 @@ def check_prices(manual=False):
         except (ConnectionError, Timeout, TooManyRedirects) as e:
             messagebox.showerror("Error", str(e))
 
-        # How often the price is checked if the "Check Prices Automatically" is selected. 60000 ms = 60 seconds. In this code, I've set the default to 60 seconds below
+        # How often the price is checked if the "Check Prices Automatically" is selected. 60000 ms = 60 seconds. In this code, I've set the default to 60 seconds
         if auto_check_var.get() and not manual:
             window.after(60000, check_prices)
 
